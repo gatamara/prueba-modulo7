@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "pruebavue-tamara"
-  }
+  },
+  "targets": {
+    "pruebavue-tamara": {
+      "hosting": {
+        "prueba-modulo7-tamara": [
+          "prueba-modulo7-tamara"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
