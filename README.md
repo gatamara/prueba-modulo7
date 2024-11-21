@@ -1,31 +1,35 @@
 # prueba-modulo7
 
-This template should help get you started developing with Vue 3 in Vite.
+## Manejo del estado con Vuex
 
-## Recommended IDE Setup
+gestionar el estado de un contador donde se deberá incrementar y decrementar
+su valor. Dicho valor partirá por defecto en 0
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Pruebas unitarias para:
+a. Verificar que se reciba un valor inicial en el contador.
+b. Probar la funcionalidad de incremento y decremento del contador
 
-## Customize configuration
+## Navegación con Vue Router:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+validar mediante pruebas unitarias la existencia de componentes que
+controlen cada una de las vistas.
 
-## Project Setup
+## Comunicación entre componentes
 
-```sh
-npm install
-```
+deberán existir dos componentes, los cuales se pueden llamar Parent.vue y Child.vue. El objetivo de
+este ejercicio es que el componente Child va a tener un campo de ingreso de texto y
+un botón. Al dar clic en el botón el texto del input será enviado al Parent y este mostrará
+en pantalla el resultado. Además, deberás generar una prueba que permita validar que
+al dar clic sobre el botón del componente Child, se envíe algún texto.
+
+### Genera el build de producción y súbelo utilizando Firebase Hosting.
+
+https://prueba-modulo7-tamara.web.app/about
 
 ### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
@@ -40,19 +44,4 @@ npm run test:unit
 npm run test:e2e:dev
 ```
 
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
 # prueba-modulo7

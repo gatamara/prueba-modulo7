@@ -19,4 +19,9 @@ input {
   border-radius: 8px;
   margin-right: 12px;
 }
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+}
 </style>
