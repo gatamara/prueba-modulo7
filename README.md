@@ -24,7 +24,7 @@ al dar clic sobre el botón del componente Child, se envíe algún texto.
 
 ### Genera el build de producción y súbelo utilizando Firebase Hosting.
 
-https://prueba-modulo7-tamara.web.app/about
+https://prueba-modulo7-tamara.web.app/
 
 ### Compile and Hot-Reload for Development
 
